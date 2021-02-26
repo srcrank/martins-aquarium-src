@@ -15,7 +15,7 @@ const fishCollection = [
 		name: "Bob",
 		species: "Guppy",
 		inches: 3,
-		image: "pinkfish.jpg"
+		image: "bluefish.jpg"
 	},
 	{ 
         saltWater: true, 
@@ -24,7 +24,7 @@ const fishCollection = [
         name: "BigBoss", 
         species: "Amber Jack", 
         inches: 60, 
-        image: "greyfish.jpg" 
+        image: "bluefish.jpg" 
     },
 	{
 		saltWater: true,
@@ -58,7 +58,7 @@ const fishCollection = [
 		harvestLocation: "Amazon Basin",
 		diet: "brine shrimp",
 		name: "Myrti",
-		image: "pinkfish.jpg",
+		image: "bluefish.jpg",
 		inches: 12,
 		species: "angel fish"
 	},
@@ -90,13 +90,13 @@ const fishCollection = [
 		image: "bluefish.jpg"
 	},
 	{
-		saltWater: "false",
+		saltWater: false,
 		harvestLocation: "Cumberland River",
 		diet: "anything",
 		name: "Whiskers",
 		species: "Ictalurus furcatus",
 		inches: 39,
-		image: "blueCatfish.jpg"
+		image: "bluefish.jpg"
 	},
 	{
         saltWater: true, 
@@ -141,7 +141,7 @@ const fishCollection = [
 		name: "Pizza",
 		species: "Tuna",
 		inches: 40,
-		image: "tuna.jpg"
+		image: "bluefish.jpg"
 	},
 	{
 		saltWater: false,
@@ -184,7 +184,7 @@ const fishCollection = [
 		harvestLocation: "Atlantic Sea",
 		name: "flipper",
 		inches: 12,
-		image: "orangefish.jpg",
+		image: "bluefish.jpg",
 		diet: "worms",
 		species: "garibaldi"
 	},
@@ -204,7 +204,7 @@ const fishCollection = [
 		name: "Cthulhu",
 		species: "Old One",
 		inches: 999,
-		image: "pinkfish.jpg"
+		image: "bluefish.jpg"
 	},
 	{ 
         saltWater: false, 
@@ -252,6 +252,6 @@ const fishCollection = [
 	}
 ];
 
-export const getFish =() => {
-    return fishCollection
+export const getFish = () => {
+    return fishCollection;
 }
