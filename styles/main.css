@@ -1,5 +1,5 @@
 body {
-	background-color: antiquewhite;
+	background-color: rgb(111, 138, 109);
 	font-family: 'Poppins', sans-serif;
 	margin: 0;
 }
@@ -8,12 +8,12 @@ header {
 	display: flex;
 	flex-wrap: nowrap;
 	align-items: center;
-	background-color: aqua
+	background-color: rgb(225, 245, 194)
 }
 
 header h1 {
 	line-height: 1em;
-	color: darkblue;
+	color: rgb(31, 7, 4);
 	text-align: left;
 	padding: 0 2em;
 	font-size: 1.5em;
