@@ -253,14 +253,14 @@ const fishCollection = [
   },
 ];
 
-export const getFish = () => {
-  return fishCollection;
-};
+// export const getFish = () => {
+//   return fishCollection;
+// };
 
 export const getFish3 = () => {
    const holyFishArray = []
     for (const fishObj of fishCollection) {
-      if(fishObj.inches % 3 === 0){
+      if(fishObj.length % 3 === 0){
         holyFishArray.push(fishObj);
       }
   }
@@ -268,19 +268,22 @@ export const getFish3 = () => {
 };
 
 export const getFish5 = () => {
-  // 5, 10, 15, 20, 25, etc... fish
   const soldierFishArray = []
   for (const fishObj of fishCollection) {
-    if(fishObj.inches % 5 === 0 && fish.obj.inches % 3 !=== 0){
-      holyFishArray.push(fishObj);
+    if(fishObj.length % 5 === 0 && fishObj.length % 3 !== 0){
+      soldierFishArray.push(fishObj);
     }
   }
   return soldierFishArray
 };
 
-/* export const getUnworthy = () => {
+export const getUnworthy = () => {
   // Any fish not a multiple of 3 or 5
   const unworthyArray = []
-  for(const fishObj of fishCollection) 
+  for(const fishObj of fishCollection) {
+    if(fishObj.length % !5 === 0 && fishObj.length % !3 === 0){
+      unworthyArray.push(FishObj);
+    }
+  }
   return unworthyArray
-} 
+}

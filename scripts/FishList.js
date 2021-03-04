@@ -1,11 +1,11 @@
-import { getFish, getSoldierFish } from "./FishData.js";
+import { getFish3, getFish5, getUnworthy } from "./FishData.js";
 import { Fish } from "./Fish.js";
-//import { getMostHolyFish, getSoldierFish, getUnworthy} from "./FishData.js";
+
 
 export const fishList = () => {
 
     const contentElement = document.querySelector(".fish-data")
-    const fishes = getFish()
+    const fishes = getFish3(), getFish5()
     let fishHtmlRepresentation = "";
     for (const phish of fishes) {
         fishHtmlRepresentation += Fish(phish);
@@ -17,3 +17,10 @@ export const fishList = () => {
         </section>
     `
 }
+
+/*
+getFish,
+getFish3();
+getFish5();
+getUnworthy();
+*/
