@@ -1,5 +1,5 @@
 body {
-	background-color: rgb(111, 138, 109);
+	background-color: rgb(199, 186, 229);
 	font-family: 'Poppins', sans-serif;
 	margin: 0;
 }
@@ -8,7 +8,7 @@ header {
 	display: flex;
 	flex-wrap: nowrap;
 	align-items: center;
-	background-color: rgb(225, 245, 194)
+	background-color: rgb(131, 91, 139);
 }
 
 header h1 {
@@ -24,7 +24,7 @@ nav ul {
 	margin: 0;
 	padding: 1em;
 	overflow: hidden;
-	background-color: rgb(100, 128, 128);
+	background-color: rgb(182, 194, 194);
 	display: flex;
 	justify-content: flex-end; 
   }
@@ -57,7 +57,7 @@ nav a:active {
 }
 
 .fish-card {
-	background-color: lightcyan;
+	background-color: rgb(255, 224, 239);
 	margin: .5em;
 	max-width: 200px;
 }

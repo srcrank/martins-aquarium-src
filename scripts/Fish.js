@@ -5,8 +5,9 @@ export const Fish = (fishObj) => {
 				<ul>
 					<li class="fish-details">${fishObj.species}</li>
 					<li class="fish-details">Length: ${fishObj.length} inches</li>
-					<li class="fish-details">Found: ${fishObj.location}</li>
+					<li class="fish-details">Found: ${fishObj.harvestLocation}</li>
 					<li class="fish-details">Diet: ${fishObj.diet}</li>
+					<li class="fish-details">Water Type: ${fishObj.saltWater === true ? "Saltwater" : "Freshwater"}</li>
 				</ul>
         	</article>`
 }
